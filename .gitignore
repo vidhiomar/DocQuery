@@ -1,0 +1,55 @@
+# 🔐 Virtual environment
+venv/
+.env/
+.env.*
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🧪 Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# 🗂️ Data files (optional — keep if large/private)
+data/
+*.csv
+*.json
+*.parquet
+
+# Hugging Face cache (important)
+.cache/
+huggingface/
+
+# Model files (avoid committing large models)
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# 📄 Logs
+*.log
+
+# 🧾 OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+#  Secrets
+*.env
+*.key
+
+#  Testing / coverage
+.coverage
+htmlcov/
+
+#  Misc
+*.sqlite3
